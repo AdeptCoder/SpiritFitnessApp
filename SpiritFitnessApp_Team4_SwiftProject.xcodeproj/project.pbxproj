@@ -169,8 +169,8 @@
 				AF93195D1E92DA6100907A34 /* CustomTableViewCellForToday.swift */,
 				AFFB52201E92232C006F26EF /* WalkingMeter.swift */,
 				AFFB51F41E8DCD8F006F26EF /* Main.storyboard */,
-				AFFB51F71E8DCD8F006F26EF /* Assets.xcassets */,
 				AFFB51F91E8DCD8F006F26EF /* LaunchScreen.storyboard */,
+				AFFB51F71E8DCD8F006F26EF /* Assets.xcassets */,
 				AFA5075B1E95E39600E25C4F /* GoogleService-Info.plist */,
 				AFFB51FC1E8DCD8F006F26EF /* Info.plist */,
 			);

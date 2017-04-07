@@ -548,7 +548,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyV-Lt-MWF">
-                                <rect key="frame" x="61" y="372" width="101" height="49"/>
+                                <rect key="frame" x="52" y="399" width="101" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="registerbtn">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -557,7 +557,7 @@
                                     <action selector="RegisterButton:" destination="NjH-Ay-LfY" eventType="touchUpInside" id="PTi-ct-VYt"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="QSb-wW-fs1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Project Logo" translatesAutoresizingMaskIntoConstraints="NO" id="QSb-wW-fs1">
                                 <rect key="frame" x="141" y="123" width="92" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -569,7 +569,7 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRJ-mF-XHe">
-                                <rect key="frame" x="186" y="369" width="97" height="54"/>
+                                <rect key="frame" x="197" y="396" width="97" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="loginbtn">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -803,7 +803,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2v-XS-9Rn">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="HW3-ol-f5A">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Project Logo" translatesAutoresizingMaskIntoConstraints="NO" id="HW3-ol-f5A">
                                                 <rect key="frame" x="143" y="29" width="89" height="72"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="72" id="JKv-fB-tHj"/>
@@ -1191,7 +1191,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1" width="585" height="450"/>
+        <image name="Project Logo" width="585" height="450"/>
         <image name="button" width="300" height="96"/>
         <image name="dumbell" width="38" height="38"/>
         <image name="loginbtn" width="600" height="270"/>
