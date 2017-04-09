@@ -13,17 +13,17 @@ import FirebaseAuth
 var userData: FIRDatabaseReference!
 
 class RegistrationController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITableViewDelegate, UITextFieldDelegate {
-    @IBOutlet weak var addresstext: UITextField!
-    @IBOutlet weak var nametxt: UITextField!
-    @IBOutlet weak var emailtxt: UITextField!
-    @IBOutlet weak var passwordtxt: UITextField!
-    @IBOutlet weak var sextxt: UITextField!
-    @IBOutlet weak var weighttxt: UITextField!
-    @IBOutlet weak var agetxt: UITextField!
-    @IBOutlet weak var citytxt: UITextField!
-    @IBOutlet weak var statePickerBtn: UIButton!
+    @IBOutlet var addresstxt: UITextField!
+    @IBOutlet var nametxt: UITextField!
+    @IBOutlet var emailtxt: UITextField!
+    @IBOutlet var passwordtxt: UITextField!
+    @IBOutlet var sextxt: UITextField!
+    @IBOutlet var weighttxt: UITextField!
+    @IBOutlet var agetxt: UITextField!
+    @IBOutlet var citytxt: UITextField!
+    @IBOutlet var statePickerBtn: UIButton!
     @IBOutlet weak var statePicker: UIPickerView!
-    @IBOutlet weak var countryPickerBtn: UIButton!
+    @IBOutlet var countryPickerBtn: UIButton!
     @IBOutlet weak var countryPicker: UIPickerView!
  
     let states = ["Alaska","Arkansas","Alabama","California","Maine","New York"]
@@ -71,7 +71,7 @@ class RegistrationController: UIViewController, UIPickerViewDataSource, UIPicker
         
         let users = [ "id" :key,
                       "Name:": nametxt.text! as String,
-                      "Address:": "" as String,
+                      "Address:": addresstxt.text! as String,
                       "email:": emailtxt.text! as String,
                       "city:": citytxt.text! as String,
                       "age:": agetxt.text! as String,
@@ -141,11 +141,11 @@ class RegistrationController: UIViewController, UIPickerViewDataSource, UIPicker
                 
             })
         }
-       // performSegue(withIdentifier: "SecondViewController", sender: self)
+        performSegue(withIdentifier: "UserDetailsViewController", sender: self)
     }
     
-   /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destination1 = segue.destination as? SecondViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination1 = segue.destination as? UserDetailsViewController {
             destination1.name = nametxt.text!
             destination1.age = agetxt.text!
             destination1.email = emailtxt.text!
@@ -154,6 +154,6 @@ class RegistrationController: UIViewController, UIPickerViewDataSource, UIPicker
             
             
         }
-    }*/
+    }
 }
 
